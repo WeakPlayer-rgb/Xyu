@@ -24,7 +24,6 @@ class VkBot:
         elif message.upper() == self._COMMANDS[1]:
             return self.search_sportmaster()
         else:
-            return 'Хуй'
 
     def search_sportmaster(self):
         print("Ну допустим")
